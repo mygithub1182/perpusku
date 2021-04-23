@@ -1,0 +1,71 @@
+import Footer from '../components/footer'
+import Header from '../components/header'
+import Icon from '../components/icon'
+
+export default function Cari(){
+    return(
+     <div>
+         <Icon />
+         <Header />
+  
+  <section className="projects-horizontal" style={{background: 'var(--bs-white)', marginTop: 37, marginBottom: 54}}>
+    <div className="container" style={{marginBottom: '-45px', marginTop: 29}}>
+      <div className="row projects">
+        <div className="col-sm-6 item">
+          <div className="row">
+            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src="assets/img/bse-a_5a0260a47533a722057742.jpg" style={{height: '203.281px', marginLeft: 38}} /></a></div>
+            <div className="col">
+              <h3 className="name">DESAIN MULTIMEDIA</h3><span>Tersedia : 10 buku | Penerbit : Erlangga</span>
+              <p className="description" style={{marginBottom: 42}}>Buku ini membahas tentang Desain Multimedia</p><a href="detail-buku.html"><button className="btn btn-primary" type="button" style={{marginTop: '-64px', background: '#2E8B57'}}>Pinjam</button></a>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-6 item">
+          <div className="row">
+            <div className="col-md-12 col-lg-5" style={{background: 'var(--bs-white)'}}><a href="#"><img className="img-fluid" src="assets/img/Buku%20Matematika%20Kurikulum%202013%20Kelas%20X%20XI%20SMA%20SMK%20MA.png" style={{height: '203.281px', marginLeft: 38, width: 147}} /></a></div>
+            <div className="col">
+              <h3 className="name">MATEMATIKA</h3><span>Tersedia : 10 buku | Penerbit : Erlangga</span>
+              <p className="description" style={{marginBottom: 42}}>Buku ini membahas tentang Matematika<br /></p><a href="detail-buku.html"><button className="btn btn-primary" type="button" style={{marginTop: '-64px', background: '#2E8B57'}}>Pinjam</button></a>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-6 item">
+          <div className="row">
+            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src="assets/img/gambar%20cover%20buku%20kimia%20BK%20Teknologi%20dan%20rekayasa.png" style={{height: '203.281px', marginLeft: 38, marginTop: 13}} /></a></div>
+            <div className="col">
+              <h3 className="name">KIMIA</h3><span>Tersedia : 10 buku | Penerbit : Erlangga</span>
+              <p className="description" style={{marginBottom: 42}}>Buku ini membahas tentang Kimia<br /></p><a href="detail-buku.html"><button className="btn btn-primary" type="button" style={{marginTop: '-64px', background: '#2E8B57'}}>Pinjam</button></a>
+            </div>
+          </div>
+        </div>
+        <div className="col-sm-6 item">
+          <div className="row">
+            <div className="col-md-12 col-lg-5"><a href="#"><img className="img-fluid" src="assets/img/buku-smk-kelas-10-pemrograman-webpdf-1-638.jpg" style={{height: '203.281px', marginLeft: 38, marginTop: 14}} /></a></div>
+            <div className="col">
+              <h3 className="name">PEMOGRAMAN WEB</h3><span>Tersedia : 10 buku | Penerbit : Erlangga</span>
+              <p className="description" style={{marginBottom: 42}}>Buku ini membahas tentang pemograman Web<br /></p><a href="detail-buku.html"><button className="btn btn-primary" type="button" style={{marginTop: '-64px', background: '#2E8B57'}}>Pinjam</button></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <br/>
+  <br/>
+ <nav className="text-start d-xl-flex justify-content-xl-center" style={{marginTop: 15, fontSize: 17}}>
+  <ul className="pagination">
+    <li className="page-item"><a className="page-link" href="#" aria-label="Previous"><span aria-hidden="true">«</span></a></li>
+    <li className="page-item active"><a className="page-link" href="#">1</a></li>
+    <li className="page-item"><a className="page-link" href="#">2</a></li>
+    <li className="page-item"><a className="page-link" href="#">3</a></li>
+    <li className="page-item"><a className="page-link" href="#">4</a></li>
+    <li className="page-item"><a className="page-link" href="#">5</a></li>
+    <li className="page-item"><a className="page-link" href="#" aria-label="Next"><span aria-hidden="true">»</span></a></li>
+  </ul>
+</nav>
+
+        <Footer/>
+ </div>
+
+    )
+}
