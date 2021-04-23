@@ -9,7 +9,6 @@ import 'bootstrap/dist/css/bootstrap.min.css'
     import '../styles/Pretty-Header.css'
     import '../styles/Pretty-Registration-Form.css'
     import '../styles/Projects-Clean.css'
-    import '../styles/styles.css'
 
 
 function MyApp({ Component, pageProps }) {
